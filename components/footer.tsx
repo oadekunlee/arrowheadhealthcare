@@ -26,7 +26,7 @@ export function Footer() {
             </Link>
             <p className="text-muted-foreground">
               Providing quality healthcare services with a compassionate approach
-              since 2005.
+              since 2025.
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="hover:text-primary">
@@ -116,7 +116,7 @@ export function Footer() {
               <li className="flex">
                 <MapPin className="h-5 w-5 mr-2 flex-shrink-0 text-muted-foreground" />
                 <span className="text-muted-foreground">
-                  123 Healthcare Blvd, Medical District, CA 90210
+                  438, Magnus Abe Street Wuye, Abuja, Nigeria
                 </span>
               </li>
               <li className="flex">

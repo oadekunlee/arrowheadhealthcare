@@ -76,7 +76,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground mt-1">(555) 123-4567</p>
+                    <p className="text-muted-foreground mt-1">(+234)091-555-55318</p>
                   </div>
                 </div>
                 
@@ -86,7 +86,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium">Email</h4>
-                    <p className="text-muted-foreground mt-1">info@arrowhealth.com</p>
+                    <p className="text-muted-foreground mt-1">info@arroweadhealthcare.ng</p>
                   </div>
                 </div>
                 
@@ -97,8 +97,8 @@ export function ContactSection() {
                   <div>
                     <h4 className="font-medium">Address</h4>
                     <p className="text-muted-foreground mt-1">
-                      123 Healthcare Blvd,<br />
-                      Medical District, CA 90210
+                      438, Magnus Abe Street<br />
+                      Wuye, Abuja, Nigeria
                     </p>
                   </div>
                 </div>
@@ -125,7 +125,7 @@ export function ContactSection() {
                 <div className="text-center p-6">
                   <MapPin className="h-8 w-8 mx-auto mb-2 text-chart-2" />
                   <p className="font-medium">Interactive Map</p>
-                  <p className="text-sm text-muted-foreground">123 Healthcare Blvd, Medical District, CA 90210</p>
+                  <p className="text-sm text-muted-foreground">438, Magnus Abe Street Wuye, Abuja, Nigeria</p>
                 </div>
               </div>
             </div>
