@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <span className="inline-block text-sm font-medium text-chart-2 mb-2">ABOUT ARROWHEAD HEALTHCARE</span>
-            <h2 className="text-3xl font-bold mb-6">Committed to Excellence in Healthcare Since 2005</h2>
+            <h2 className="text-3xl font-bold mb-6">Committed to Excellence in Healthcare Since 2025</h2>
             
             <Tabs defaultValue="mission" className="w-full">
               <TabsList className="grid grid-cols-3 mb-6">
