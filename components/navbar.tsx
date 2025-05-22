@@ -53,8 +53,8 @@ export function Navbar() {
               href="/"
               className="flex items-center text-2xl font-bold text-primary"
             >
-              <span className="text-chart-2 mr-1">Arrow</span>
-              <span>Health</span>
+              <span className="text-chart-2 mr-1">ARROWHEAD</span>
+              <span>HEALTHCARE</span>
             </Link>
           </div>
 
