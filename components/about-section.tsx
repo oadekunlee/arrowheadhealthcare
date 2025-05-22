@@ -20,13 +20,13 @@ export function AboutSection() {
               
               <TabsContent value="mission" className="space-y-4">
                 <p className="text-muted-foreground">
-                  At Arrowhead Healthcare, our mission is to provide accessible, high-quality healthcare to our community. 
-                  We strive to improve the health and well-being of our patients through personalized care, innovative 
-                  treatments, and a compassionate approach.
+                  At Arrowhead Healthcare, In a world where healthcare challenges grow more complex by the day, Arrowhead
+                  Healthcare stands as your trusted ally. We've reimagined what a healthcare partner should be—not just a vendor of products or services, but a comprehensive solution
+                  provider that understands the interconnected nature of healthcare excellence.
                 </p>
                 <p className="text-muted-foreground">
-                  We believe that everyone deserves access to excellent healthcare, regardless of their background or circumstances. 
-                  Our team is committed to serving our diverse community with respect, dignity, and understanding.
+                  We are the healthcare partner you need in your corner. Born from a vision to simplify healthcare delivery without compromising quality, we
+                  bring together medical supplies, hospital management expertise, specialized consultancy, facility design, and healthcare staffing under one roof.
                 </p>
               </TabsContent>
               

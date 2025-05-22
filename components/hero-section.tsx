@@ -57,8 +57,7 @@ export function HeroSection() {
               Advanced Healthcare for <span className="text-chart-2">Your</span> Family
             </h1>
             <p className="mb-8 text-xl text-white/90">
-              At Arrowhead Healthcare, we combine cutting-edge medical technology with 
-              compassionate care to provide the best possible outcomes for our patients.
+              All the healthcare solutions you need in one place From medical supplies to hospital design, we're your single source for excellence in healthcare delivery.
             </p>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
               <Button size="lg" className="group">

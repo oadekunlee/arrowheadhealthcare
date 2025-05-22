@@ -13,31 +13,31 @@ type TeamMember = {
 const teamMembers: TeamMember[] = [
   {
     id: 1,
-    name: "Dr. Sarah Johnson",
+    name: "Dr. Seun ",
     role: "Chief Medical Officer",
     image: "https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    bio: "Dr. Johnson has over 15 years of experience in internal medicine and healthcare leadership. She oversees all medical operations and ensures the highest standards of patient care.",
+    bio: "Dr. Timothy has over 15 years of experience in internal medicine and healthcare leadership. She oversees all medical operations and ensures the highest standards of patient care.",
   },
   {
     id: 2,
-    name: "Dr. Michael Chen",
+    name: "Dr. Sarah Johnson",
     role: "Cardiologist",
     image: "https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    bio: "Specializing in cardiovascular health, Dr. Chen is dedicated to preventive care and treating heart conditions with the latest evidence-based approaches.",
+    bio: "Specializing in cardiovascular health, Dr. Sarah is dedicated to preventive care and treating heart conditions with the latest evidence-based approaches.",
   },
   {
     id: 3,
     name: "Dr. Rachel Martinez",
     role: "Pediatrician",
     image: "https://images.pexels.com/photos/5214959/pexels-photo-5214959.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    bio: "With a passion for children's health, Dr. Martinez focuses on developmental care and building trusting relationships with both patients and their families.",
+    bio: "With a passion for children's health, Dr. Rachel focuses on developmental care and building trusting relationships with both patients and their families.",
   },
   {
     id: 4,
-    name: "Dr. James Wilson",
+    name: "Dr. Monisa Wilson",
     role: "Neurologist",
     image: "https://images.pexels.com/photos/5407206/pexels-photo-5407206.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    bio: "Dr. Wilson specializes in diagnosing and treating disorders of the nervous system, bringing years of experience and a patient-centered approach to his practice.",
+    bio: "Dr. Monisa specializes in diagnosing and treating disorders of the nervous system, bringing years of experience and a patient-centered approach to his practice.",
   },
 ];
 
