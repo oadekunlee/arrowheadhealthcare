@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { 
@@ -21,8 +22,14 @@ export function Footer() {
               href="/"
               className="inline-flex items-center text-2xl font-bold text-primary"
             >
-              <span className="text-chart-2 mr-1">ARROWHEAD</span>
-              <span>HEALTHCARE</span>
+              <Image
+                src="/logo.jpg"
+                   alt="Arrowhead Healthcare Logo"
+                   width={140}
+                   height={64}
+                   className="mr-2 bg-white rounded-xl shadow-lg border-4 p-1"
+                   priority
+              />
             </Link>
             <p className="text-muted-foreground">
               Providing quality healthcare services with a compassionate approach
@@ -115,13 +122,12 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex">
                 <MapPin className="h-5 w-5 mr-2 flex-shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">
-                  438, Magnus Abe Street Wuye, Abuja, Nigeria
+                <span className="text-muted-foreground">438, Magnus Abe Street Wuye, Abuja, Nigeria
                 </span>
               </li>
               <li className="flex">
                 <Phone className="h-5 w-5 mr-2 flex-shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">(555) 123-4567</span>
+                <span className="text-muted-foreground">(070)000ARROWHEAD</span>
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0 text-muted-foreground" />
@@ -138,13 +144,13 @@ export function Footer() {
             &copy; {new Date().getFullYear()} Arrowhead Healthcare. All rights reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Privacy Policy
             </Link>
-            <Link href="/terms" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Terms of Service
             </Link>
-            <Link href="/accessibility" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Accessibility
             </Link>
           </div>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -53,8 +54,14 @@ export function Navbar() {
               href="/"
               className="flex items-center text-2xl font-bold text-primary"
             >
-              <span className="text-chart-2 mr-1">ARROWHEAD</span>
-              <span>HEALTHCARE</span>
+               <Image
+                   src="/logo.jpg"
+                   alt="Arrowhead Healthcare Logo"
+                   width={120}
+                   height={64}
+                   className="mr-2 bg-white rounded-xl shadow-lg border-4 p-1"
+                   priority
+                 />
             </Link>
           </div>
 

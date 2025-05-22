@@ -12,8 +12,9 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CalendarIcon, Phone, Mail, MapPin, Clock, CalendarCheck } from "lucide-react";
-import { format } from "date-fns";
+import { format, set } from "date-fns";
 import { cn } from "@/lib/utils";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
@@ -29,6 +30,7 @@ type FormData = z.infer<typeof formSchema>;
 export function ContactSection() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
+  const [recaptchaToken, setRecaptchaToken] = useState<string | null>(null);
 
   const form = useForm<FormData>({
     resolver: zodResolver(formSchema),
@@ -76,7 +78,7 @@ export function ContactSection() {
                   </div>
                   <div>
                     <h4 className="font-medium">Phone</h4>
-                    <p className="text-muted-foreground mt-1">(+234)091-555-55318</p>
+                    <p className="text-muted-foreground mt-1">(070)000ARROWHEAD</p>
                   </div>
                 </div>
                 
@@ -194,7 +196,7 @@ export function ContactSection() {
                     render={({ field }) => (
                       <FormItem>
                         <FormLabel>Service Needed</FormLabel>
-                        <Select onValueChange={field.onChange} defaultValue={field.value}>
+                        <Select {...field} onValueChange={field.onChange} value={field.value}>
                           <FormControl>
                             <SelectTrigger>
                               <SelectValue placeholder="Select a service" />
@@ -253,7 +255,6 @@ export function ContactSection() {
                       </FormItem>
                     )}
                   />
-                  
                   <FormField
                     control={form.control}
                     name="message"
@@ -271,10 +272,15 @@ export function ContactSection() {
                       </FormItem>
                     )}
                   />
-                  
+                  {/* ...other fields... */}
                   <Button type="submit" className="w-full" disabled={isSubmitting}>
                     {isSubmitting ? "Submitting..." : "Request Appointment"}
                   </Button>
+                  <ReCAPTCHA
+                      sitekey="6Le2H0UrAAAAACde1Yw8on1XTS24O0-sXF9gDjMo"
+                      onChange={setRecaptchaToken}
+                      className="mb-4"
+                   />    
                 </form>
               </Form>
             )}
