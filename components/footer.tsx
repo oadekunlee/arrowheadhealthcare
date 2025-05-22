@@ -21,8 +21,8 @@ export function Footer() {
               href="/"
               className="inline-flex items-center text-2xl font-bold text-primary"
             >
-              <span className="text-chart-2 mr-1">Arrow</span>
-              <span>Health</span>
+              <span className="text-chart-2 mr-1">ARROWHEAD</span>
+              <span>HEALTHCARE</span>
             </Link>
             <p className="text-muted-foreground">
               Providing quality healthcare services with a compassionate approach
@@ -125,7 +125,7 @@ export function Footer() {
               </li>
               <li className="flex">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0 text-muted-foreground" />
-                <span className="text-muted-foreground">info@arrowhealth.com</span>
+                <span className="text-muted-foreground">info@arrowheadhealthcare.ng</span>
               </li>
             </ul>
           </div>
