@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export',
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+const { withNetlify } = require('@netlify/next');
+
+module.exports = withNetlify({
+  reactStrictMode: true,
   images: { unoptimized: true },
-};
+});
+
 
 module.exports = nextConfig;
