@@ -8,9 +8,9 @@ import { Calendar, ArrowRight } from "lucide-react";
 export function HeroSection() {
   const [currentImage, setCurrentImage] = useState(0);
   const images = [
-    "https://images.pexels.com/photos/4226140/pexels-photo-4226140.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    "https://ik.imagekit.io/arrowheadhealthcare/empty-modern-arms-crossed-corporate-physician.jpg?updatedAt=1748002891641",
     "https://images.pexels.com/photos/3938022/pexels-photo-3938022.jpeg?auto=compress&cs=tinysrgb&w=1920",
-    "https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=1920"
+    "https://ik.imagekit.io/arrowheadhealthcare/african-american-doctor-patient-doing-consultation.jpg?updatedAt=1748005358198"
   ];
 
   useEffect(() => {

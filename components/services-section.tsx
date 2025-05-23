@@ -1,4 +1,4 @@
-import { Heart, Activity, Thermometer, Baby, Brain, Bone, Stethoscope, Pill as Pills, Microscope } from "lucide-react";
+import { Heart, Baby,  Stethoscope, Pill as Hospital, HospitalIcon } from "lucide-react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
@@ -12,58 +12,34 @@ type Service = {
 const services: Service[] = [
   {
     id: 1,
-    title: "Primary Care",
-    description: "Comprehensive healthcare addressing preventive services, wellness exams, and treatment of acute and chronic illnesses.",
+    title: "Medical Supplies",
+    description: "From everyday essentials to specialized equipment, our medical supplies meet international standards while respecting your budget. No more juggling multiple vendors or compromising on quality.",
     icon: <Stethoscope className="h-10 w-10" />,
   },
   {
     id: 2,
-    title: "Cardiology",
-    description: "Expert care for heart conditions, including diagnostic testing, treatment, and ongoing management of cardiovascular diseases.",
+    title: "Hospital Management",
+    description: "Transform your healthcare facility's performance with management solutions that optimize operations, enhance patient experiences, and improve financial outcomes. We don't just advise, we implement.",
     icon: <Heart className="h-10 w-10" />,
   },
   {
     id: 3,
-    title: "Pediatrics",
-    description: "Specialized healthcare for children from birth through adolescence, focusing on growth, development, and childhood illnesses.",
+    title: "Healthcare Consultancy",
+    description: "Whether you're planning a medical outreach, implementing a government health policy, or developing a corporate health initiative, our consultants bring clarity to complexity.",
     icon: <Baby className="h-10 w-10" />,
   },
   {
     id: 4,
-    title: "Neurology",
-    description: "Diagnosis and treatment of disorders affecting the nervous system, including the brain, spinal cord, and peripheral nerves.",
-    icon: <Brain className="h-10 w-10" />,
+    title: "Hospital Design & Construction",
+    description: "Create healthcare environments that work as beautifully as they look. Our design and construction services blend clinical efficiency with healing aesthetics.",
+    icon: <Hospital className="h-10 w-10" />,
   },
   {
     id: 5,
-    title: "Orthopedics",
-    description: "Care for musculoskeletal issues, including joint pain, sports injuries, arthritis, and rehabilitation services.",
-    icon: <Bone className="h-10 w-10" />,
-  },
-  {
-    id: 6,
-    title: "Internal Medicine",
-    description: "Specialized care for adults focusing on prevention, diagnosis, and treatment of adult diseases, including chronic conditions.",
-    icon: <Activity className="h-10 w-10" />,
-  },
-  {
-    id: 7,
-    title: "Pharmaceuticals",
-    description: "On-site pharmacy services providing prescription medications, refills, and medication management consultations.",
-    icon: <Pills className="h-10 w-10" />,
-  },
-  {
-    id: 8,
-    title: "Laboratory Services",
-    description: "Comprehensive diagnostic testing, including blood work, urinalysis, pathology, and other laboratory procedures.",
-    icon: <Microscope className="h-10 w-10" />,
-  },
-  {
-    id: 9,
-    title: "Urgent Care",
-    description: "Immediate medical attention for non-life-threatening illnesses and injuries when your primary care provider is unavailable.",
-    icon: <Thermometer className="h-10 w-10" />,
-  },
+    title: "Healthcare HR & Training",
+    description: "Create healthcare environments that work as beautifully as they look. Our design and construction services blend clinical efficiency with healing aesthetics.",
+    icon: <HospitalIcon className="h-10 w-10" />,
+  }
 ];
 
 export function ServicesSection() {

@@ -14,19 +14,19 @@ export function AboutSection() {
             <Tabs defaultValue="mission" className="w-full">
               <TabsList className="grid grid-cols-3 mb-6">
                 <TabsTrigger value="mission">Our Mission</TabsTrigger>
-                <TabsTrigger value="approach">Our Approach</TabsTrigger>
-                <TabsTrigger value="values">Our Values</TabsTrigger>
+                <TabsTrigger value="approach">How to Get Started</TabsTrigger>
+                <TabsTrigger value="values">Our Founding Principles</TabsTrigger>
               </TabsList>
               
               <TabsContent value="mission" className="space-y-4">
                 <p className="text-muted-foreground">
-                  At Arrowhead Healthcare, In a world where healthcare challenges grow more complex by the day, Arrowhead
-                  Healthcare stands as your trusted ally. We've reimagined what a healthcare partner should be—not just a vendor of products or services, but a comprehensive solution
-                  provider that understands the interconnected nature of healthcare excellence.
+                  Arrowhead Healthcare is a comprehensive healthcare solutions provider dedicated
+                  to enhancing medical service delivery across multiple touchpoints.
                 </p>
                 <p className="text-muted-foreground">
-                  We are the healthcare partner you need in your corner. Born from a vision to simplify healthcare delivery without compromising quality, we
-                  bring together medical supplies, hospital management expertise, specialized consultancy, facility design, and healthcare staffing under one roof.
+                  With expertise spanning medical supplies, hospital management, specialized
+                  consultancy, facility design, and healthcare staffing, we're your partner in achieving
+                  operational excellence and improved patient outcomes.
                 </p>
               </TabsContent>
               
@@ -36,23 +36,25 @@ export function AboutSection() {
                   We take the time to listen to our patients, understand their unique needs, and develop 
                   personalized treatment plans that address their specific health concerns.
                 </p>
-                <p className="text-muted-foreground">
-                  We utilize the latest medical technologies and evidence-based practices to ensure that our patients 
-                  receive the most effective care possible. Our multidisciplinary team collaborates to provide 
-                  comprehensive care that addresses all aspects of our patients' health.
-                </p>
+                <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
+                  <li><span className="font-medium">Consult</span>: Schedule a needs assessment with our healthcare solutions team</li>
+                  <li><span className="font-medium">Customize</span>: Receive a tailored solution designed for your specific requirements</li>
+                  <li><span className="font-medium">Implement</span>: Experience seamless integration with ongoing support and optimization</li>
+                </ul>
               </TabsContent>
               
               <TabsContent value="values" className="space-y-4">
                 <p className="text-muted-foreground">
-                  Our core values guide everything we do at Arrowhead Healthcare:
+                 Throughout our growth, we've remained committed to our founding principles:
+                 excellence, innovation, integrity, and a patient-centered approach to everything we do.
                 </p>
                 <ul className="list-disc pl-5 space-y-2 text-muted-foreground">
-                  <li><span className="font-medium">Excellence</span>: We are committed to providing the highest quality care.</li>
-                  <li><span className="font-medium">Compassion</span>: We treat every patient with kindness, empathy, and respect.</li>
-                  <li><span className="font-medium">Integrity</span>: We adhere to the highest ethical standards in all that we do.</li>
-                  <li><span className="font-medium">Innovation</span>: We continuously seek new and better ways to improve patient care.</li>
-                  <li><span className="font-medium">Collaboration</span>: We work together as a team to achieve the best outcomes for our patients.</li>
+                  <li><span className="font-medium">Excellence</span>: We uphold the highest standards in everything we do, from the quality of our medical supplies to the expertise of our consultancy services.</li>
+                  <li><span className="font-medium">Innovation</span>: We continuously seek new and better ways to address healthcare challenges, embracing emerging technologies and methodologies. </li>
+                  <li><span className="font-medium">Integrity</span>:  We operate with transparency, honesty, and ethical conduct in all our business relationships and practices.</li>
+                  <li><span className="font-medium">Collaboration</span>: We believe in the power of partnership, working closely with our clients to develop tailored solutions that meet their specific needs.</li>
+                  <li><span className="font-medium">Patient-Centered</span>: We never lose sight of the ultimate purpose of healthcare—the patient. All our solutions are designed with patient outcomes and experiences in mind.</li>
+                  <li><span className="font-medium">Global perspective, local understanding</span>: We bring international best practices to each project while respecting and adapting to local healthcare contexts and cultures.</li>
                 </ul>
               </TabsContent>
             </Tabs>
@@ -66,7 +68,7 @@ export function AboutSection() {
           <div className="order-1 lg:order-2 relative">
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="https://images.pexels.com/photos/7579831/pexels-photo-7579831.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                src="https://ik.imagekit.io/arrowheadhealthcare/front-view-smiley-doctor-clinic.jpg?updatedAt=1748001050634"
                 alt="Medical professionals in a meeting"
                 width={800}
                 height={600}
