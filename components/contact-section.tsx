@@ -203,10 +203,10 @@ export function ContactSection() {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            <SelectItem value="primary-care">Primary Care</SelectItem>
-                            <SelectItem value="cardiology">Cardiology</SelectItem>
-                            <SelectItem value="pediatrics">Pediatrics</SelectItem>
-                            <SelectItem value="neurology">Neurology</SelectItem>
+                            <SelectItem value="medical-supplies">Medical Supplies</SelectItem>
+                            <SelectItem value="healthcare-consultancy">Healthcare Consultancy</SelectItem>
+                            <SelectItem value="hospital-design-construction">Hospital Design & Construction</SelectItem>
+                            <SelectItem value="healthcare-hr-training">Healthcare HR & Training</SelectItem>
                             <SelectItem value="orthopedics">Orthopedics</SelectItem>
                             <SelectItem value="internal-medicine">Internal Medicine</SelectItem>
                             <SelectItem value="urgent-care">Urgent Care</SelectItem>
