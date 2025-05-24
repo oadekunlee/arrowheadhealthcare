@@ -14,8 +14,8 @@ export function AboutSection() {
             <Tabs defaultValue="mission" className="w-full">
               <TabsList className="grid grid-cols-3 mb-6">
                 <TabsTrigger value="mission">Our Mission</TabsTrigger>
-                <TabsTrigger value="approach">How to Get Started</TabsTrigger>
-                <TabsTrigger value="values">Our Founding Principles</TabsTrigger>
+                <TabsTrigger value="approach">Get Started</TabsTrigger>
+                <TabsTrigger value="values">Our Principles</TabsTrigger>
               </TabsList>
               
               <TabsContent value="mission" className="space-y-4">
